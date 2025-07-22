@@ -1,0 +1,29 @@
+{
+  "name": "turborepo-starter",
+  "description": "This ready-to-use Turborepo starter helps you build full-stack applications with a monorepo setup for both frontend and backend apps",
+  "private": true,
+  "author": {
+    "name": "Rodrigo Antunes",
+    "url": "https://rodrigoantunes.me/",
+    "email": "contatorodrigoantunes@gmail.com"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.4",
+    "typescript": "5.8.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "npm@11.4.2",
+  "workspaces": [
+    "apps/*"
+  ]
+}
