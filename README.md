@@ -30,7 +30,7 @@ bun dev
 
 ## What's inside?
 
-This Turborepo includes the following packages/apps:
+This Turborepo includes the following apps:
 
 ### Apps
 
