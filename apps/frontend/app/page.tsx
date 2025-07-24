@@ -23,7 +23,7 @@ export default async function Home() {
             </code>
           </li>
           <li>
-            The API available at{" "}
+            The API is available at{" "}
             <Link className="underline" href={api}>
               <code className="rounded bg-neutral-800 px-1">{api}</code>
             </Link>

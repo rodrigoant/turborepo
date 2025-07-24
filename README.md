@@ -16,7 +16,7 @@ pnpm install
 bun install
 ```
 
-Then, run the development server:
+Then, run the development server in the root folder:
 
 ```bash
 npm run dev
@@ -27,6 +27,11 @@ pnpm dev
 # or
 bun dev
 ```
+
+Frontend: [http://localhost:3000/](http://localhost:3000/)\
+Backend: [http://localhost:3001/](http://localhost:3001/)
+
+---
 
 ## What's inside?
 
